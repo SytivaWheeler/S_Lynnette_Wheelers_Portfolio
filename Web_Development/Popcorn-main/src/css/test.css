@@ -1,0 +1,22 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    text-align: center;
+}
+.movie-container {
+    background-color: coral;
+    width: auto;
+    height: auto;
+    border: 1px solid;
+    overflow: visible;
+}
+
+button {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffc828;
+}

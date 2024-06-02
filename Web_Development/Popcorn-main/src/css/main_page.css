@@ -1,0 +1,23 @@
+.fixed-header{
+    background-color: rgb(61, 139, 139);
+    padding: 20px;
+}
+div{
+    display: block;
+}
+.container{
+    color: rgb(0, 38, 255);
+}
+body{
+    padding: auto;
+}
+a{
+    padding-right: 30px ;
+}
+.fixed-footer{
+    background-color: rgb(61, 139, 139);
+    padding: 20px;
+}
+.user-avi{
+    float:right;
+}

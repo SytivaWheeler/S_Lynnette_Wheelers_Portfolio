@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../images/bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.login {
+    border-radius: 15px;
+    background: rgba(0, 0, 0, .7);
+    padding: 15px;
+}
+
+.fs-1 {
+    color: #fff;
+}
+
+.form-inp {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.form-inp label {
+    width: 85px;
+}
+
+.form-label {
+    margin-bottom: 0;
+}
+
+.form-inp input {
+    /*border-radius: 15px;*/
+    border: none;
+    outline-style: none;
+    color: #fff;
+    padding-left: 10px;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+}
+
+
+.btn-primary {
+    border: none;
+    background-color: #ffc828 !important;
+}

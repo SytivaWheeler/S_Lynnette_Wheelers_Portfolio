@@ -1,0 +1,51 @@
+body {
+    background: url('../images/bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.checkcon {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border-radius: 15px;
+    width: 550px;
+    background: rgba(0, 0, 0, .7);
+}
+
+.form-check {
+    font-size: 25px;
+    padding: 15px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+input:hover{
+	border: cadetblue 1px solid;
+}
+a:hover{
+		animation: change 2s ease-in-out 0s 1 alternate forwards;	
+	}
+	@keyframes change {	
+		0% {
+			color: rgba(255,255,255,1)
+		}
+		30%{
+			color:rgba(170, 170, 255, 0.3)
+		}
+		50% {
+			color: rgba(0, 170, 255, 0.5)
+		}	
+		80% {
+			color: rgba(255, 170, 255, 0.8)
+		}	
+		100% {color: rgba(7, 7, 7, 1.0);}	
+	}

@@ -1,0 +1,55 @@
+html {
+  background: url('../images/bg.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  background: rgba(0, 0, 0, 0);
+}
+ 
+.profile{
+  color: bisque;
+  margin: auto;
+  width: 75%;
+  padding: 15px;
+}
+
+.wrapper{
+  border-radius: 15px;
+  background: rgba(0, 0, 0, .7);
+  padding: 15px;
+}
+
+h2 {
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+}
+
+h4 {
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+a:hover{
+		animation: change 2s ease-in-out 0s 1 alternate forwards;	
+	}
+	@keyframes change {	
+		0% {
+			color: rgba(255,255,255,1)
+		}
+		30%{
+			color:rgba(170, 170, 255, 0.3)
+		}
+		50% {
+			color: rgba(0, 170, 255, 0.5)
+		}	
+		80% {
+			color: rgba(255, 170, 255, 0.8)
+		}	
+		100% {color: rgba(7, 7, 7, 1.0);}	
+	}
